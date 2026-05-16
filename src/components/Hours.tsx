@@ -1,7 +1,7 @@
 import { Clock, Phone, Globe } from 'lucide-react';
 import InstaIcon from '../assets/Insta.png';
 import YouTubeIcon from '../assets/YouTube.png';
-import TikTokIcon from '../assets/TikTok.png';
+import TikTokIcon from '../assets/Tiktok.png';
 export default function Hours() {
   return (
     <section id="contact" className="py-20 sm:py-32 bg-gradient-to-b from-gray-50 to-white relative overflow-hidden">

@@ -2,7 +2,7 @@ import { Heart } from 'lucide-react';
 import Logo from '../assets/Logo.png';
 import InstaIcon from '../assets/Insta.png';
 import YouTubeIcon from '../assets/YouTube.png';
-import TikTokIcon from '../assets/TikTok.png';
+import TikTokIcon from '../assets/Tiktok.png';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
