@@ -30,6 +30,11 @@ export default function Hours() {
                 <p className="text-gray-600 text-lg">11:00 AM - 7:00 PM</p>
               </div>
 
+              <div className="bg-gradient-to-br from-white to-gray-50 p-8 rounded-2xl border-l-4 border-teal-400 shadow-lg hover:shadow-xl transition-shadow">
+                <p className="font-bold text-2xl text-gray-900 mb-2">Saturday</p>
+                <p className="text-gray-600 text-lg">11:00 AM - 4:00 PM</p>
+              </div>
+
               <div className="bg-gradient-to-br from-teal-50 to-teal-100 p-8 rounded-2xl border-2 border-teal-300 mt-8">
                 <p className="text-teal-900 font-bold text-lg mb-2">
                   Limited Availability
@@ -76,6 +81,19 @@ export default function Hours() {
                 <div className="flex items-start gap-4">
                   <Globe size={24} className="text-amber-300 flex-shrink-0 mt-1" />
                   <div>
+                    <p className="text-teal-100 font-semibold mb-1">Address</p>
+                    <p className="text-white text-lg">
+                      11 Salem Street, Unit 12A<br />
+                      Medford, MA 02155
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="space-y-3">
+                <div className="flex items-start gap-4">
+                  <Globe size={24} className="text-amber-300 flex-shrink-0 mt-1" />
+                  <div>
                     <p className="text-teal-100 font-semibold mb-1">Website</p>
                     <a
                       href="https://www.energyandease.com"
@@ -92,7 +110,7 @@ export default function Hours() {
                 <div className="flex gap-4">
                   <div className="flex gap-3 pt-2">
                 <a
-                  href="https://www.instagram.com"
+                  href="https://www.instagram.com/mardocheebijoux"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 rounded-full flex items-center justify-center transition-all transform hover:scale-110"
@@ -101,7 +119,7 @@ export default function Hours() {
                   <img src={InstaIcon} alt="Instagram" className="w-12 h-12" />
                 </a>
                 <a
-                  href="https://www.youtube.com"
+                  href="https://www.youtube.com/@mardocheebijoux"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 rounded-full flex items-center justify-center transition-all transform hover:scale-110"
@@ -110,7 +128,7 @@ export default function Hours() {
                   <img src={YouTubeIcon} alt="YouTube" className="w-12 h-12" />
                 </a>
                 <a
-                  href="https://www.tiktok.com"
+                  href="https://www.tiktok.com/@mardocheebijoux"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 rounded-full flex items-center justify-center transition-all transform hover:scale-110"

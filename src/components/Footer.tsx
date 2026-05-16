@@ -17,7 +17,7 @@ export default function Footer() {
           <div className="flex flex-col items-center md:items-start space-y-3">
               <img src={Logo} alt="ENERGY & EASE" className="w-64 h-auto" />
             <p className="text-gray-400 text-sm mt-4 md:mt-0 text-center md:text-left">
-              Dedicated to your well-being and relaxation
+              Where calmness blooms, healing flourishes.
             </p>
           </div>
 
@@ -80,7 +80,7 @@ export default function Footer() {
               </a>
               <div className="flex gap-3 pt-2">
                 <a
-                  href="https://www.instagram.com"
+                  href="https://www.instagram.com/mardocheebijoux"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 rounded-full flex items-center justify-center transition-all transform hover:scale-110"
@@ -89,7 +89,7 @@ export default function Footer() {
                   <img src={InstaIcon} alt="Instagram" className="w-8 h-8" />
                 </a>
                 <a
-                  href="https://www.youtube.com"
+                  href="https://www.youtube.com/@mardocheebijoux"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 rounded-full flex items-center justify-center transition-all transform hover:scale-110"
@@ -98,7 +98,7 @@ export default function Footer() {
                   <img src={YouTubeIcon} alt="YouTube" className="w-8 h-8" />
                 </a>
                 <a
-                  href="https://www.tiktok.com"
+                  href="https://www.tiktok.com/@mardocheebijoux"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 rounded-full flex items-center justify-center transition-all transform hover:scale-110"
