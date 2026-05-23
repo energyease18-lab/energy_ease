@@ -43,7 +43,7 @@ export default function Hours() {
                   Book early to secure your preferred time slot. Personalized sessions require advanced notice.
                 </p>
                 <a
-                  href="https://brandedweb.mindbodyonline.com/"
+                  href="https://clients.mindbodyonline.com/classic/ws?studioid=5753304&stype=-2&subTab=info"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block bg-gradient-to-r from-teal-600 to-teal-700 hover:from-teal-700 hover:to-teal-800 text-white px-8 py-3 rounded-lg font-bold transition-all transform hover:scale-105"
