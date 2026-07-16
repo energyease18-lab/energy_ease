@@ -44,7 +44,7 @@ export default function Hero() {
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
               <a
-                href="https://brandedweb.mindbodyonline.com/"
+                href="https://clients.mindbodyonline.com/classic/ws?studioid=5753304&stype=-2&subTab=info"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block bg-white hover:bg-gray-100 text-teal-700 px-10 py-4 rounded-full font-bold text-lg transition-all transform hover:scale-105 shadow-lg"
