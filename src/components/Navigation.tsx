@@ -38,9 +38,7 @@ export default function Navigation({ onHomeClick }: NavigationProps) {
           </div>
 
           <a
-            href="https://clients.mindbodyonline.com/classic/ws?studioid=5753304&stype=-2&subTab=info"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="#book"
             className="bg-amber-500 hover:bg-amber-600 text-white px-6 py-2 rounded-full font-semibold text-sm transition-colors"
           >
             Book Now

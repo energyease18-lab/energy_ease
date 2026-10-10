@@ -22,24 +22,32 @@ export default function Hours() {
             <div className="space-y-6">
               <div className="bg-gradient-to-br from-white to-gray-50 p-8 rounded-2xl border-l-4 border-amber-500 shadow-lg hover:shadow-xl transition-shadow">
                 <p className="font-bold text-2xl text-gray-900 mb-2">Monday</p>
-                <p className="text-gray-600 text-lg">11:00 AM - 7:00 PM</p>
+                <p className="text-gray-600 text-lg">10:00 AM - 8:00 PM</p>
               </div>
               <div className="bg-gradient-to-br from-white to-gray-50 p-8 rounded-2xl border-l-4 border-teal-500 shadow-lg hover:shadow-xl transition-shadow">
                 <p className="font-bold text-2xl text-gray-900 mb-2">Tuesday</p>
-                <p className="text-gray-600 text-lg">11:00 AM - 7:00 PM</p>
+                <p className="text-gray-600 text-lg">10:00 AM - 8:00 PM</p>
               </div>
               <div className="bg-gradient-to-br from-white to-gray-50 p-8 rounded-2xl border-l-4 border-blue-500 shadow-lg hover:shadow-xl transition-shadow">
                 <p className="font-bold text-2xl text-gray-900 mb-2">Wednesday</p>
-                <p className="text-gray-600 text-lg">11:00 AM - 7:00 PM</p>
+                <p className="text-gray-600 text-lg">10:00 AM - 8:00 PM</p>
+              </div>
+              <div className="bg-gradient-to-br from-white to-gray-50 p-8 rounded-2xl border-l-4 border-teal-500 shadow-lg hover:shadow-xl transition-shadow">
+                <p className="font-bold text-2xl text-gray-900 mb-2">Thursday</p>
+                <p className="text-gray-600 text-lg">10:00 AM - 8:00 PM</p>
               </div>
               <div className="bg-gradient-to-br from-white to-gray-50 p-8 rounded-2xl border-l-4 border-teal-500 shadow-lg hover:shadow-xl transition-shadow">
                 <p className="font-bold text-2xl text-gray-900 mb-2">Friday</p>
-                <p className="text-gray-600 text-lg">11:00 AM - 7:00 PM</p>
+                <p className="text-gray-600 text-lg">10:00 AM - 8:00 PM</p>
               </div>
 
               <div className="bg-gradient-to-br from-white to-gray-50 p-8 rounded-2xl border-l-4 border-teal-400 shadow-lg hover:shadow-xl transition-shadow">
                 <p className="font-bold text-2xl text-gray-900 mb-2">Saturday</p>
-                <p className="text-gray-600 text-lg">11:00 AM - 4:00 PM</p>
+                <p className="text-gray-600 text-lg">10:00 AM - 8:00 PM</p>
+              </div>
+              <div className="bg-gradient-to-br from-white to-gray-50 p-8 rounded-2xl border-l-4 border-teal-400 shadow-lg hover:shadow-xl transition-shadow">
+                <p className="font-bold text-2xl text-gray-900 mb-2">Sunday</p>
+                <p className="text-gray-600 text-lg">10:00 AM - 8:00 PM</p>
               </div>
 
 

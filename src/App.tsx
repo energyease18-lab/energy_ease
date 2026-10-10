@@ -5,6 +5,7 @@ import Hero from './components/Hero';
 import About from './components/About';
 import Services from './components/Services';
 import AddOns from './components/AddOns';
+import MindbodyAppointments from './components/MindbodyAppointments';
 import Hours from './components/Hours';
 import Footer from './components/Footer';
 import ServiceDetail from './pages/ServiceDetail';
@@ -30,6 +31,7 @@ function App() {
       <div className="min-h-screen bg-white">
         <Navigation onHomeClick={handleBackHome} />
         <ServiceDetail serviceId={selectedService} onBack={handleBackHome} />
+        <MindbodyAppointments />
         <Footer />
       </div>
     );
@@ -42,6 +44,7 @@ function App() {
       <About />
       <Services onServiceClick={handleServiceClick} />
       <AddOns />
+      <MindbodyAppointments />
       <Hours />
       <Footer />
     </div>

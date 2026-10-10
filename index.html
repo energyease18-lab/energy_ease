@@ -4,13 +4,49 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Energy &amp; Ease | Relax and unwind</title>
+
     <meta property="og:image" content="/assets/Logo.png" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:image" content="/assets/Logo.png" />
+
+    <script src="https://cdn.attn.tv/enea/dtag.js"></script>
   </head>
+
   <body>
     <div id="root"></div>
+
+    <script>
+      (function (t, i, o, n, w, a, e) {
+        t["bowtieDataToken"] = w;
+        t[w] =
+          t[w] ||
+          function () {
+            (t[w].i = t[w].i || []).push(arguments);
+          };
+        t[w].o = 1 * new Date();
+
+        a = i.createElement(o);
+        e = i.getElementsByTagName(o)[0];
+        a.async = true;
+        a.src = n;
+        a.onload = function () {
+          console.info("[Energy & Ease] AI Concierge script loaded.");
+        };
+        a.onerror = function () {
+          console.error("[Energy & Ease] AI Concierge failed to load.");
+        };
+        e.parentNode.insertBefore(a, e);
+      })(
+        window,
+        document,
+        "script",
+        "https://s3.amazonaws.com/bowtie.ai/bowtieJS/bowtie_widget.js",
+        "energy_ease"
+      );
+    </script>
+
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
