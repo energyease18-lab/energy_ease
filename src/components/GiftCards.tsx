@@ -38,7 +38,6 @@ const GiftWidgets = () => {
 
   return (
     <section className="w-full bg-gradient-to-b from-emerald-50/60 to-white px-5 py-16 md:px-8 md:py-24">
-      {/* Animations: one soft staggered entrance, plus skeleton shimmer while the widget loads */}
       <style>{`
         @keyframes gift-rise {
           from { opacity: 0; transform: translateY(24px) scale(0.98); }
@@ -64,13 +63,12 @@ const GiftWidgets = () => {
       `}</style>
 
       <div className="mx-auto max-w-7xl">
-        {/* Heading */}
         <div
           className="gift-rise mx-auto mb-12 max-w-2xl text-center md:mb-16"
           style={{ animationDelay: '0ms' }}
         >
           <h1 className="text-3xl font-semibold tracking-tight text-gray-900 md:text-5xl">
-            Holiday Massage Therapy Gift Cards
+            Holiday Gift Card
           </h1>
           <p className="mt-4 text-base leading-relaxed text-gray-600 md:text-lg">
             Give someone the gift of real relaxation. Choose an amount and
@@ -78,7 +76,6 @@ const GiftWidgets = () => {
           </p>
         </div>
 
-        {/* Gift Cards */}
         <div className="grid grid-cols-1 items-start gap-8 md:grid-cols-3 md:gap-8 lg:gap-10 cursor-pointer">
           {giftCards.map((gift, index) => (
             <article
@@ -86,7 +83,6 @@ const GiftWidgets = () => {
               className="gift-rise group flex flex-col items-center rounded-2xl bg-white p-4 shadow-[0_1px_3px_rgba(16,24,40,0.08)] ring-1 ring-gray-100 transition-all duration-500 ease-out hover:-translate-y-1.5 hover:shadow-[0_20px_40px_-12px_rgba(5,150,105,0.25)] hover:ring-emerald-200 motion-reduce:transition-none motion-reduce:hover:translate-y-0 md:p-5"
               style={{ animationDelay: `${150 + index * 120}ms` }}
             >
-              {/* Flyer */}
               <div className="mb-5 w-full overflow-hidden rounded-xl bg-gray-50">
                 <img
                   src={gift.image}
@@ -96,19 +92,16 @@ const GiftWidgets = () => {
                 />
               </div>
 
-              {/* Gift Card Title */}
               <h2 className="mb-5 text-xl font-semibold tracking-tight text-gray-900">
                 {gift.amount} Gift Card
               </h2>
 
-              {/* Mindbody Buy Now Widget */}
               <div
                 className="
                   relative flex min-h-[52px] w-full justify-center
                   [&:has(.healcode-gift-card-text-link)_.gift-skeleton]:hidden
                 "
               >
-                {/* Placeholder shown until the Mindbody widget loads */}
                 <span
                   aria-hidden="true"
                   className="gift-skeleton absolute top-0 h-[52px] w-full max-w-[220px] rounded-full"
