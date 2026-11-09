@@ -9,6 +9,7 @@ import MindbodyAppointments from './components/MindbodyAppointments';
 import Hours from './components/Hours';
 import Footer from './components/Footer';
 import ServiceDetail from './pages/ServiceDetail';
+import GiftWidgets from './components/GiftCards';
 
 function App() {
   const [currentPage, setCurrentPage] = useState<'home' | 'service'>('home');
@@ -45,6 +46,7 @@ function App() {
       <Services onServiceClick={handleServiceClick} />
       <AddOns />
       <MindbodyAppointments />
+      <GiftWidgets />
       <Hours />
       <Footer />
     </div>
