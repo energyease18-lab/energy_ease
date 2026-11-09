@@ -10,6 +10,7 @@ import Hours from './components/Hours';
 import Footer from './components/Footer';
 import ServiceDetail from './pages/ServiceDetail';
 import GiftWidgets from './components/GiftCards';
+import Biography from './components/Biography';
 
 function App() {
   const [currentPage, setCurrentPage] = useState<'home' | 'service'>('home');
@@ -48,6 +49,7 @@ function App() {
       <MindbodyAppointments />
       <GiftWidgets />
       <Hours />
+      <Biography />
       <Footer />
     </div>
   );
